@@ -1,8 +1,5 @@
 import random
 
-#mobile = input("Mobile: Y/N")
-#landline = 
-#country_prefix = input("Include country prefix? ")
 
 quantity = int(input("How many numbers? "))
 prefix = "021"
