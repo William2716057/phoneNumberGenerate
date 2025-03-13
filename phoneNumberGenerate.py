@@ -2,10 +2,9 @@ import random
 
 
 quantity = int(input("How many numbers? "))
-prefix = "021"
-prefix2 = "022"
-prefix3 = "027"
-for _ in range(quantity):
-    number = random.randint(100000, 999999)
-    
-    print(f"{prefix} {number}")
+prefixes = ["021", "022", "027"]
+
+for prefix in prefixes:
+    for _ in range(quantity):
+        number = random.randint(1000000000, 9999999999)  # Generate a 10-digit number
+        print(f"{prefix} {number}")
